@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FontAwsm-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive portfolio website</title>
+</head>
+<body>
+    <!--Header-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--Home Section Design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1>Sagar Tamrakar</h1>
+            <h3>And I'm a <span>Software Developer</span> </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, obcaecati nisi alias eum corporis adipisci assumenda unde ullam ab autem quos expedita necessitatibus culpa illo perspiciatis vero mollitia aperiam voluptatibus.</p>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="/Users/sagartamrakar/Downloads/Portfolio/Unknown-4.jpg" alt="">
+            
+        </div>
+    </section>
+
+    <!--ABOUT Section Design-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="profile.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ducimus atque, delectus consequatur quas quibusdam assumenda sit facere dicta consequuntur labore. Voluptas, nulla laboriosam ipsum soluta at id blanditiis sit.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+
+    <!--Services Section Design-->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Developer</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat delectus rem, aperiam laudantium ipsum eius expedita. Molestiae nulla illo molestias officiis commodi nobis earum. Ipsum libero sunt necessitatibus dolorem beatae.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-palette"></i>
+                <h3>UI/UX Designing</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat delectus rem, aperiam laudantium ipsum eius expedita. Molestiae nulla illo molestias officiis commodi nobis earum. Ipsum libero sunt necessitatibus dolorem beatae.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-brands fa-android"></i>
+                <h3>App Developer</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat delectus rem, aperiam laudantium ipsum eius expedita. Molestiae nulla illo molestias officiis commodi nobis earum. Ipsum libero sunt necessitatibus dolorem beatae.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Portfolio Section Design-->
+    <section class="portfolio" id="portfolio">
+       <h2 class="heading">Latest <span>Projects</span></h2> 
+
+       <div class="portfolio-container">
+
+            <div class="portfolio-box">
+                <img src="img11.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Designing</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img11.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Designing</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img3.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Designing</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--Contact Section Design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2> 
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    <!--Contact Section Design-->
+    
+    <!--Footer Section Design-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Sagar | All Rights Reserved.</p>   
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <!--Main Js -->
+    <script src="/Users/sagartamrakar/Downloads/Portfolio/main.js"></script>
+
+</body>
+</html>
