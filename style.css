@@ -384,7 +384,7 @@ transform:translateY(0);
     }
 }
 
-@media (max-width: 1366px)
+@media (max-width: 1360px)
 {
     #menu-icon{
         display: block;
