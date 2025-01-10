@@ -62,3 +62,29 @@ const typed1= new Typed('.multiple-text1',{
     loopDelay:1000,
     loop:true,
 });
+
+
+/*----------Email js ---------*/
+
+// Initialize EmailJS
+emailjs.init('x1BZxbjsyf3eK-LB-'); // Replace with your EmailJS User ID
+
+// Form submission event listener
+document.getElementById('input-box').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the default form submission behavior
+
+    // Send email using EmailJS
+    const form = this;
+
+    emailjs.sendForm('service_3vzd0l5', 'template_rubs1z7', form)
+        .then(function(response) {
+            console.log(response)
+            form.reset();
+            alert('Message sent successfully!');
+        }, function(error) {
+            alert('Failed to send message. Error: ' + JSON.stringify(error));
+        });
+
+        
+}).reset();
+
